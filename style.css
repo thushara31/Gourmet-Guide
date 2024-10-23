@@ -1,0 +1,20 @@
+
+h1{
+    font-family: 'Caudex', serif;
+    font:bold;
+    font-size:30px;
+}
+h2{
+    font-family: 'Caudex', serif;
+    font:bolder;
+    font-size:30px;
+    width: 750px;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    width:700px;
+    line-height: 25px;
+}
+body{
+    background-image: url("Cooking images.jpg")
+}
