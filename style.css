@@ -1,20 +1,260 @@
 
-h1{
-    font-family: 'Caudex', serif;
-    font:bold;
-    font-size:30px;
-}
 h2{
-    font-family: 'Caudex', serif;
-    font:bolder;
-    font-size:30px;
-    width: 750px;
+  font-family: 'EB Garamond', serif;
+  font:bold;
+  font-size:50px;
+  width: 750px;
+  color: white;
 }
 h4{
-    font-family: 'Montserrat', sans-serif;
-    width:700px;
-    line-height: 25px;
+  font-family: 'Montserrat', sans-serif;
+  width:700px;
+  line-height: 25px;
 }
+
+.navbar{
+  position:sticky;
+  top:0;
+  z-index:99999;
+  background-color: White;
+  font-family: EB Garamond;
+  font-size:20px;
+}
+
+.nav-item:hover{
+  font-weight:bold;
+}
+
+
+
+
+#getstartedbutton{
+  width:500px;
+  font-size:15px;
+}
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: EB Garamon;
+  font-weight: 550;
+}
+
+#hero {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(24, 24, 24, 0.501), rgba(24, 24, 24, 0.501)),
+    url("food.jpg")
+      no-repeat center bottom / cover;
+  color: whitesmoke;
+}
+.container {
+  width: 90%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  /*   text-align: center; */
+}
+#hero .info h1 {
+  font-size: 60px;
+  width:700px;
+  /* text-transform: uppercase; */
+  margin-bottom: 1rem;
+}
+#hero .info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+#hero .info p {
+  font-size: 1.2rem;
+  max-width: 50%;
+}
+#hero .info a {
+  text-decoration: none;
+  text-align:center;
+  display: inline-block;
+  background-color:white;
+  border-radius: 10px;
+  width:300px;
+  font-size: 1.2rem;
+  font-weight:bold;
+  padding: 0.5em 2em;
+  margin-top: 2rem;
+  color: rgb(173, 113, 23);
+}
+
+.carousel-item{
+  width: 100%;
+  height:100%;
+}
+
+#tryheading{
+  font-family:EB Garamon;
+  font-size: 40px;
+}
+
+#trytext{
+  font-family: Montserrat;
+  width:600px;
+}
+
+.try{
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+.line{
+  background-color:rgb(173, 113, 23);
+  width:500px;
+  height:5px;
+}
+
+#demo{
+  width:1100px;
+}
+
+/* Container Spacing */
+.container {
+  max-width: 1200px; /* Optional: Limit container width */
+}
+
+/* Custom Card Styling */
+.card-custom {
+  background-color: #f8f9fa; /* Light background */
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect for Cards */
+.card-custom:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Wrapper Styling */
+.image-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 15px auto; /* Center horizontally and add bottom margin */
+  overflow: hidden;
+  border-radius: 50%; /* Make image circular */
+  border: 2px solid #dee2e6; /* Optional: Add border to image */
+}
+
+/* Image Styling */
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure image covers the container */
+}
+
+/* Card Title Styling */
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Responsive Adjustments*/
+@media (max-width: 576px) {
+  .card-custom {
+      padding: 15px;
+  }
+  .image-wrapper {
+      width: 100px;
+      height: 100px;
+  }
+  .card-title {
+      font-size: 0.9rem;
+  }
+}
+
+.explore-title {
+  text-align: left; /* Moves the text to the right */
+  color: #000; /* Changes the text color to black */ 
+  margin-right: 20px; /* Optional: Adds space between text and the edge */
+}
+
+.confused{
+  display:flex;
+  padding: 0 15px;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+  gap:5rem;
+}
+
+.confused-textbox{
+flex:1;
+}
+
+
+#confusedheading{
+font-size:5rem ;
+font-family:EB Garamon;
+}
+
+.confusedimage{
+width:100%;
+max-width:750px;
+object-fit:cover;
+height:450px;
+float:left;
+}
+
+#confusedtext{
+  font-family: Montserrat;
+  max-width:700px;
+}
+
+
+.letsgo{
+  margin-top: 10px; /* Adds some spacing between the image and button */
+  width:700px;
+  max-width:750px;
+  height:40px;
+  background-color:rgb(173, 113, 23); /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.letsgo:hover {
+  background-color: rgb(222, 161, 69); /* Button hover effect */
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+  .body{
+    width:auto;
+    height:auto;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .body{
+    width:auto;
+    height:auto;
+  }
+}
+
 body{
-    background-image: url("Cooking images.jpg")
+  max-width:100%;
+  max-height:100vh;
+  width:auto;
+  margin:auto;
 }
